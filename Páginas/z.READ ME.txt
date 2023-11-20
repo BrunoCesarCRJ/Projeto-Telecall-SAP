@@ -1,0 +1,35 @@
+Projeto: Telecall - Unisuam 4°periodo 2023
+
+Análise e Desenvolvimento de Sistemas  - Unisuam - Bangu manhã.
+
+Grupo Dev. Original: 
+Thiago de Sousa Rocha
+Mateus Nascimento Amorim
+Natã Florêncio dos Santos
+Alexandre Silva Felismino
+
+Grupo Dev. Front e Back-end: 
+Bruno Cesar Fernandes Romão
+Natã Florêncio dos Santos
+
+Repositório:
+https://github.com/BrunoCesarCRJ/Projeto-Telecall-SAP.git
+
+Créditos:
+Textos e imagens por:
+MODAVO/ Telecall
+
+Ilustrações:
+https://storyset.com/
+https://undraw.co/
+
+Icones:
+https://fonts.google.com/icons
+
+Adendo: 
+Grande parte do front-end está sendo reutilizado para a realização do projeto, portanto, descrevemos de antemão o grupo responsável pela criação do mesmo.
+
+
+
+
+
