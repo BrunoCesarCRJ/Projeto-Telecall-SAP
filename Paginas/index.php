@@ -76,18 +76,12 @@
                 <li><a href="numeromascara.php">Número Máscara</a></li>
                 <li><a href="google.php">Google Verified Calls</a></li>
                 <li><a href="sms.php">SMS Programável</a></li>
-                <?php
-                    if((isset($_SESSION['email']) == true) and (isset($_SESSION['senha']) == true)){
-
-                        echo $_SESSION['email'];
-                    } 
-                    else {
-                        echo '<li><a class="log"><a href="log.php">Já é cliente?</a></li>';
-                    }
-                ?>
-        
+                <li class="log"><a href="log.php">Já é cliente?</a></li>
                 <div class="dark">
-                    <button><img src="media/Icons/dark_mode_FILL0_wght400_GRAD0_opsz48.svg" alt="Modo Escuro" title="Modo Escuro" id="dark2"></button>
+                    <button><img src="media/Icons/dark_mode_FILL0_wght400_GRAD0_opsz48.svg" alt="Modo Escuro" title="Modo Escuro" id="dark"></button>
+                </div>
+                <div class = "d-flex">
+                    <a href='sair.php'><i class="bi bi-box-arrow-right" id="sairbutton"></i></a>
                 </div>
             </ul>
         </div>

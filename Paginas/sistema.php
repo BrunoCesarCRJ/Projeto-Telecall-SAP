@@ -1,22 +1,13 @@
 <?php
     session_start();
     //print_r($_SESSION);
-    if (!isset($_SESSION['email']) && !isset($_SESSION['senha'])) {
-        if (isset($_POST['email'])) {
-            $email = $_POST['email'];
-            unset($_SESSION['email']);
-            unset($_SESSION['senha']);
-        } 
-        
-        else {
-            $email = '';
-        }
-    }
-    else {
-        $email = $_SESSION['email'];
+    if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)) {
+        unset($_SESSION['email']);
+        unset($_SESSION['senha']);
+        header('Location: log.php');
     }
     
-    $logado = isset($_SESSION['email']) ? $_SESSION['email'] : '';
+    $logado = $_SESSION['email'];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -24,7 +15,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sms.css">
     <link rel="shortcut icon" href="media/Icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
@@ -73,9 +64,11 @@
                 <li><a href="google.php">Google Verified Calls</a></li>
                 <li><a href="sms.php">SMS Programável</a></li>
                 <li class="log"><a href="log.php">Já é cliente?</a></li>
-        
                 <div class="dark">
-                    <button><img src="media/Icons/dark_mode_FILL0_wght400_GRAD0_opsz48.svg" alt="Modo Escuro" title="Modo Escuro" id="dark2"></button>
+                    <button><img src="media/Icons/dark_mode_FILL0_wght400_GRAD0_opsz48.svg" alt="Modo Escuro" title="Modo Escuro" id="dark"></button>
+                </div>
+                <div class = "d-flex">
+                    <a href='sair.php'><i class="bi bi-box-arrow-right" id="sairbutton"></i></a>
                 </div>
             </ul>
         </div>

@@ -47,7 +47,7 @@
                         <input type="checkbox" id="lembrar-senha" name="lembrar-senha" value="aceito">
                         <label for="lembrar-senha">Lembrar Senha</label>
                     </div>
-                    <button onclick="validar(this.form)" name="submit">ENVIAR</button>
+                    <button type="submit" name="submit">ENVIAR</button>
                     <button type="button" onclick="limparFormulario(this.form)">LIMPAR</button>
                     <div class="cadastroii">
                 </form>

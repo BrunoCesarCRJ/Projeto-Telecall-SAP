@@ -5,20 +5,20 @@
     {
         // Acessa
         include_once('conexao.php');
-        $nome = $_POST['nome'];
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 
         /*print_r('Email: ' . $email);
         print_r('<br>');
-        print_r('Senha: ' . $senha);*/
-
+        print_r('Senha: ' . $senha);
+        print_r('<br>');*/
+        
         $sql = "SELECT * FROM usuarios WHERE email = '$email' and senha = '$senha'";
 
         $result = $conexao->query($sql);
 
-        print_r($sql);
-        print_r($result);
+        //print_r($sql);
+        //print_r($result);
 
         if(mysqli_num_rows($result) < 1){
             //print_r('Usuário não encontrado.');
@@ -38,6 +38,5 @@
         // Não acessa
         header('Location: log.php');
     }
-
 
 ?>
