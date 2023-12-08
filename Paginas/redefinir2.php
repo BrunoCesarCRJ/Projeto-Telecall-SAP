@@ -1,3 +1,22 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Obter o e-mail do formulário
+    $email = $_POST["email"];
+
+    // Validar o e-mail (adicione lógica de validação personalizada, se necessário)
+
+    // Enviar e-mail
+    $assunto = "Assunto do E-mail";
+    $mensagem = "Olá! Este é um e-mail de exemplo enviado para $email.";
+
+    // Utilize a função mail para enviar o e-mail
+    mail($email, $assunto, $mensagem);
+
+    // Redirecionar de volta à página principal ou exibir uma mensagem de sucesso
+    header("Location: redefinir.php");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 

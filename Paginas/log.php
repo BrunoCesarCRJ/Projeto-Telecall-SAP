@@ -1,3 +1,11 @@
+<php
+    
+    
+    
+    
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -34,7 +42,7 @@
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
                     <span class="mensagem-erro" id="mensagem-erro-email"></span>
-
+                    
                     <div id="senhaContainer">
                         <label for="senha">Senha</label>
                         <input type="password" id="senha" name="senha" required>
@@ -47,7 +55,7 @@
                         <input type="checkbox" id="lembrar-senha" name="lembrar-senha" value="aceito">
                         <label for="lembrar-senha">Lembrar Senha</label>
                     </div>
-                    <button type="submit" name="submit">ENVIAR</button>
+                    <button type="submit" name="submit" onclick="validar(this.form)">ENVIAR</button>
                     <button type="button" onclick="limparFormulario(this.form)">LIMPAR</button>
                     <div class="cadastroii">
                 </form>

@@ -25,6 +25,7 @@ https://undraw.co/
 
 Icones:
 https://fonts.google.com/icons
+https://icons.getbootstrap.com/
 
 Adendo: 
 Grande parte do front-end está sendo reutilizado para a realização do projeto, portanto, descrevemos de antemão o grupo responsável pela criação do mesmo.

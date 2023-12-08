@@ -1,3 +1,7 @@
+<?php 
+    require_once("conexao.php");
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -19,9 +23,9 @@
             <h1>Redefinir Senha</h1>
             <p>Informe seu email cadastrado.</p>
             <div class="container-form">
-                <form>
+                <form action="redefinir2.php">
                     <label for="redefinir">Email</label>
-                    <input type="email" id="redefinir" name="redefinir" required>
+                    <input type="email" id="redefinir" name="email" required>
                     <br>
                     <!--Definir botão para submit-->
                     <div class="enviar">

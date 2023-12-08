@@ -1,0 +1,7 @@
+Link do site
+Hospedado em: 000webhost.com
+
+https://seminal-cam.000webhostapp.com/Projeto%20Telecall%20-%20SAP/Paginas/index.php
+
+Banco de Dados
+https://databases-auth.000webhost.com/index.php?route=/database/structure&db=id21550719_contas

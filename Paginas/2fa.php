@@ -244,17 +244,6 @@
             </div>
         </div>
         <div class="pergunta-input">
-            
-            <div class="group">
-                    <div class="pergunta-h1">
-                        <h2 class="titulo">Faça um teste com a pergunta abaixo </h2>
-                    </div>
-                    <input type="text" id="meuInput" placeholder="Clique no botão" required>
-                    <button onclick="atualizarPlaceholder()">Gerar pergunta</button>
-                    <button onclick="enviarResposta()">Enviar</button>
-                <br>
-                <br>
-            </div>
         </div>
     </section>
     <script src="JavaScript/Darkmode.js"></script>
