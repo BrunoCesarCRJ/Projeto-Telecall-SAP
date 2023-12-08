@@ -57,7 +57,7 @@
 
         <div class="login-fundo">
             <div class="login">
-                <h1>Autentificação</h1>
+                <h1>Autenticação</h1>
                 <form action="sistema.php" method="POST" id="form-ver">
         <div class="pergunta-input">
             
